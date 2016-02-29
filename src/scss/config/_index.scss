@@ -1,0 +1,83 @@
+// =============================================================================
+// CONFIG
+// =============================================================================
+
+
+
+// Configuration maps
+// -----------------------------------------------------------------------------
+//
+// Her are grouped all configuration maps of our application
+//
+// -----------------------------------------------------------------------------
+
+// font-map holding the font families used in our app
+// -----------------------------------------------------------------------------
+
+$font-map: (
+  1: "'Raleway', serif",
+  2: "'Lora', serif"
+  );
+
+
+// font-map holding the font families used in our app
+// -----------------------------------------------------------------------------
+
+$color-map: (
+    1: (
+        base:  #eee,
+        dark:  darken(#eee, 10%),
+        light: lighten(#eee, 10%)
+    ),
+    2: (
+        base:  #7aa5d2,
+        dark:  darken(#7aa5d2, 10%),
+        light: lighten(#7aa5d2, 10%)
+    ),
+    3: (
+        base:  #47555e,
+        dark:  darken(#47555e, 10%),
+        light: lighten(#47555e, 10%)
+    ),
+
+);
+
+
+// susy grid config map - learn more at http://susy.oddbird.net/
+// -----------------------------------------------------------------------------
+
+$susy: (
+  columns: 12,
+  gutters: .25,
+  container: 1200px,
+  gutter-position: inside,
+  clearfix: true
+);
+
+// breakpois we'll use in our app
+// -----------------------------------------------------------------------------
+
+$bp-ap: (
+
+  xs: 480px,
+  s: 786px,
+  m: 992px,
+  l: 1200px
+
+  );
+
+
+// Modular scale configuration
+// -----------------------------------------------------------------------------
+//
+// These are used for typography and general scaling
+// Read more about it at https://github.com/modularscale/modularscale-sass
+//
+// -----------------------------------------------------------------------------
+
+
+$ms-base: 1em;
+$ms-ratio: 1.333, 1.414;
+
+
+
