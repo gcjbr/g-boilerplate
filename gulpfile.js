@@ -183,7 +183,7 @@ gulp.task('html', function() {
 });
 
 gulp.task('fonts', function(){
-    gulp.src(src+'fonts/*')
+    gulp.src(src+'fonts/**/*')
     .pipe(plumber())
     .pipe(gulp.dest(dist+'fonts'))
     .pipe(gulp.dest(work+'fonts'));
@@ -238,7 +238,7 @@ gulp.task('scaffold', shell.task([
 /*----------  Default task  ----------*/
 
 
-gulp.task('default', ['browserSync', 'html', 'scripts', 'styles'], function() {
+gulp.task('default', ['browserSync', 'html', 'scripts', 'styles', 'fonts'], function() {
     //a list of watchers, so it will watch all of the following files waiting for changes
     gulp.watch(src+'js/**', ['scripts']);
     gulp.watch(src+'scss/**', ['styles']);
