@@ -43,15 +43,12 @@ $color-map: (
 );
 
 
-// susy grid config map - learn more at http://susy.oddbird.net/
+// neat grid config map - read more on http://neat.bourbon.io/docs/latest/
 // -----------------------------------------------------------------------------
 
-$susy: (
+$neat-grid: (
   columns: 12,
-  gutters: .25,
-  container: 1200px,
-  gutter-position: inside,
-  clearfix: true
+  gutter: 20px,
 );
 
 // breakpois we'll use in our app
