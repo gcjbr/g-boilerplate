@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "bourbon-neat": "^2.0.0",
     "breakpoint-sass": "^2.7.1",
     "browser-sync": "^2.18.12",
     "eslint": "^4.1.1",
@@ -22,6 +23,7 @@
     "gulp-sourcemaps": "^2.6.0",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.7",
+    "modularscale-sass": "^3.0.3",
     "normalize.css": "^7.0.0"
   }
 }
