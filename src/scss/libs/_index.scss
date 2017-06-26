@@ -8,6 +8,6 @@
 
 
 
-@import '~/normalize.css';
-@import 'breakpoint/breakpoint';
+@import 'node_modules/normalize.css';
+@import 'node_modules/breakpoint-sass/stylesheets/breakpoint';
 @import 'modular_scale/modular-scale';
